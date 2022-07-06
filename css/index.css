@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /*faz o conteudo se limitar á caixa, se for content-box, se limita ao conteudo então a caixa pode aumentar se eu por exemplo colocar um padding, agora no border-box o tamanho da caixa é fixo*/
+}
+
+body {
+  background-color: #00082F;
+  color: white;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 3px rgb(76, 117, 230) solid;
+}
+ul {
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.container{
+  width: 300px;
+  text-align: center;
+  margin: 60px auto;
+}
+h1 {
+  font-size: 32px;
+  margin-top: 24px ;
+  margin-bottom: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  margin-bottom: 48px;;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  opacity: 0.8;
+}
+#footer {
+  margin-bottom: 48px;
+}
+
+ul li a {
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(76, 117, 230);
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+ul li a:hover {
+  background-color: rgb(102, 136, 230);
+  transition: 400ms;
+}
+li {
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  font-family: 'Finlandica', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 0.8;
+  transition: 500ms;
+}
+footer:hover {
+  opacity: 1;
+}
